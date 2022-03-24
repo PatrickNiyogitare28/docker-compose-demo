@@ -34,7 +34,7 @@ jobs:
       # Runs a single command using the runners shell
       - name: Docker build
         run: |
-          docker build . -t atrickniyo/docker-compose-demo
+          docker build . -t patrickniyo/docker-compose-demo
           
       - name: Docker push
         run: |
